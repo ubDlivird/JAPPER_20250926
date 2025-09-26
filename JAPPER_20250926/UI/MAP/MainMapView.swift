@@ -65,6 +65,12 @@ struct MainMapView: View {
                 }
             }
             
+            // MARK: - MapInfoOverlayView (画面左上)
+            // 処理: 現在のカメラ情報($camera)を渡すことで、ズームレベルを含む情報を常時表示
+            MapInfoOverlayView(camera: camera)
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading) // 左上に配置
+            .padding()
+            
             // MARK: - デバッグ用ビュー
             // 処理: デバッグ設定に基づいてUIの表示を切り替える
             if DebugSettings.gridSetUi {

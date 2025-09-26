@@ -38,8 +38,8 @@ enum GridSettings {
     static let baseCellSizeInMeters: Double = 100000 // 100km
     
     // 処理: 縦横のセル数を定義
-    static let numberOfVerticalCells: Double = 100.0
-    static let numberOfHorizontalCells: Double = 100.0
+    static let numberOfVerticalCells: Double = 10000.0
+    static let numberOfHorizontalCells: Double = 10000.0
     
     // グリッド線の色と幅
     static let gridLineColor: Color = .blue
