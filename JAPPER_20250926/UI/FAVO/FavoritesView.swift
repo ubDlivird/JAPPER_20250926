@@ -50,9 +50,9 @@ struct FavoritesView: View {
     }
 }
 
-// MARK: - Preview
-struct FavoritesView_Previews: PreviewProvider {
-    static var previews: some View {
-        FavoritesView()
-    }
-}
+//// MARK: - Preview
+//struct FavoritesView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        FavoritesView()
+//    }
+//}

@@ -56,7 +56,7 @@ struct HomeView: View {
                     }
                 
                 // 4番目のタブ
-                Text("タブ \(tabItems[3]) の内容")
+                FavoritesView()
                     .tag(3)
                     .tabItem {
                         Label("Favorites", systemImage: tabItems[3])
