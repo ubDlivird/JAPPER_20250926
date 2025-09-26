@@ -1,21 +1,22 @@
-//
-//  ContentView.swift
-//  JAPPER_20250926
-//
-//  Created by SHUYA on 2025/09/26.
-//
+// MARK: - ContentView.swift
+// このファイルは、アプリのメインビューであり、各機能を統合します。
 
 import SwiftUI
+import MapLibreSwiftUI
+import MapLibreSwiftDSL
+import CoreLocation
+import MapLibre
 
+// MARK: - ContentView
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        // 処理: アプリのルートビューをHomeViewに設定する
+        HomeView()
     }
 }
 
+// MARK: - プレビュー
+#Preview {
+    ContentView()
+}
