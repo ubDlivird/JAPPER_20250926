@@ -49,7 +49,7 @@ struct HomeView: View {
                     }
                 
                 // 3番目のタブ
-                Text("タブ \(tabItems[2]) の内容")
+                MainMapView()
                     .tag(2)
                     .tabItem {
                         Label("Add", systemImage: tabItems[2])
@@ -63,7 +63,7 @@ struct HomeView: View {
                     }
                 
                 // 5番目のタブ
-                Text("タブ \(tabItems[4]) の内容")
+                ProfileView()
                     .tag(4)
                     .tabItem {
                         Label("Profile", systemImage: tabItems[4])
@@ -77,9 +77,9 @@ struct HomeView: View {
     }
 }
 
-// MARK: - プレビュー
-struct HomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeView()
-    }
-}
+//// MARK: - プレビュー
+//struct HomeView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        HomeView()
+//    }
+//}

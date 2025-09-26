@@ -12,6 +12,7 @@
 		18C4F5C82E86353700661B91 /* MapLibreSwiftMacros in Frameworks */ = {isa = PBXBuildFile; productRef = 18C4F5C72E86353700661B91 /* MapLibreSwiftMacros */; };
 		18C4F5CA2E86353700661B91 /* MapLibreSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 18C4F5C92E86353700661B91 /* MapLibreSwiftUI */; };
 		18C4F5CD2E86408800661B91 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 18C4F5CC2E86408800661B91 /* FirebaseCore */; };
+		18C4F60B2E865B2300661B91 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 18C4F60A2E865B2300661B91 /* FirebaseFirestore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 				18C4F5C62E86353700661B91 /* MapLibreSwiftDSL in Frameworks */,
 				18C4F5CA2E86353700661B91 /* MapLibreSwiftUI in Frameworks */,
 				18C4F5C32E8634D400661B91 /* GoogleMobileAds in Frameworks */,
+				18C4F60B2E865B2300661B91 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +98,7 @@
 				18C4F5C72E86353700661B91 /* MapLibreSwiftMacros */,
 				18C4F5C92E86353700661B91 /* MapLibreSwiftUI */,
 				18C4F5CC2E86408800661B91 /* FirebaseCore */,
+				18C4F60A2E865B2300661B91 /* FirebaseFirestore */,
 			);
 			productName = JAPPER_20250926;
 			productReference = 18C4F5A52E862D5000661B91 /* JAPPER_20250926.app */;
@@ -419,6 +422,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 18C4F5CB2E8639A000661B91 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseCore;
+		};
+		18C4F60A2E865B2300661B91 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18C4F5CB2E8639A000661B91 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
